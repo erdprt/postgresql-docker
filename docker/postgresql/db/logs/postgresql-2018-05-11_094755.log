@@ -1,0 +1,114 @@
+[2018-05-11 09:47:55.209 UTC] [64] []LOG:  database system was shut down at 2018-05-11 09:47:54 UTC
+[2018-05-11 09:47:55.209 UTC] [64] []DEBUG:  checkpoint record is at 0/1634378
+[2018-05-11 09:47:55.210 UTC] [64] []DEBUG:  redo record is at 0/1634378; shutdown TRUE
+[2018-05-11 09:47:55.210 UTC] [64] []DEBUG:  next transaction ID: 0:557; next OID: 16386
+[2018-05-11 09:47:55.210 UTC] [64] []DEBUG:  next MultiXactId: 1; next MultiXactOffset: 0
+[2018-05-11 09:47:55.210 UTC] [64] []DEBUG:  oldest unfrozen transaction ID: 548, in database 1
+[2018-05-11 09:47:55.210 UTC] [64] []DEBUG:  oldest MultiXactId: 1, in database 1
+[2018-05-11 09:47:55.210 UTC] [64] []DEBUG:  commit timestamp Xid oldest/newest: 0/0
+[2018-05-11 09:47:55.210 UTC] [64] []DEBUG:  transaction ID wrap limit is 2147484195, limited by database with OID 1
+[2018-05-11 09:47:55.210 UTC] [64] []DEBUG:  MultiXactId wrap limit is 2147483648, limited by database with OID 1
+[2018-05-11 09:47:55.210 UTC] [64] []DEBUG:  starting up replication slots
+[2018-05-11 09:47:55.210 UTC] [64] []DEBUG:  starting up replication origin progress state
+[2018-05-11 09:47:55.210 UTC] [64] []DEBUG:  MultiXactId wrap limit is 2147483648, limited by database with OID 1
+[2018-05-11 09:47:55.210 UTC] [64] []DEBUG:  MultiXact member stop limit is now 4294914944 based on MultiXact 1
+[2018-05-11 09:47:55.274 UTC] [64] []DEBUG:  shmem_exit(0): 1 before_shmem_exit callbacks to make
+[2018-05-11 09:47:55.274 UTC] [64] []DEBUG:  shmem_exit(0): 4 on_shmem_exit callbacks to make
+[2018-05-11 09:47:55.274 UTC] [64] []DEBUG:  proc_exit(0): 2 callbacks to make
+[2018-05-11 09:47:55.274 UTC] [64] []DEBUG:  exit(0)
+[2018-05-11 09:47:55.274 UTC] [64] []DEBUG:  shmem_exit(-1): 0 before_shmem_exit callbacks to make
+[2018-05-11 09:47:55.274 UTC] [64] []DEBUG:  shmem_exit(-1): 0 on_shmem_exit callbacks to make
+[2018-05-11 09:47:55.274 UTC] [64] []DEBUG:  proc_exit(-1): 0 callbacks to make
+[2018-05-11 09:47:55.277 UTC] [1] []DEBUG:  reaping dead processes
+[2018-05-11 09:47:55.279 UTC] [65] []DEBUG:  checkpointer updated shared memory configuration values
+[2018-05-11 09:47:55.280 UTC] [1] []DEBUG:  starting background worker process "logical replication launcher"
+[2018-05-11 09:47:55.281 UTC] [1] []LOG:  database system is ready to accept connections
+[2018-05-11 09:47:55.281 UTC] [68] []DEBUG:  autovacuum launcher started
+[2018-05-11 09:47:55.282 UTC] [68] []DEBUG:  InitPostgres
+[2018-05-11 09:47:55.282 UTC] [68] []DEBUG:  my backend ID is 1
+[2018-05-11 09:47:55.283 UTC] [68] []DEBUG:  StartTransaction(1) name: unnamed; blockState: DEFAULT; state: INPROGR, xid/subid/cid: 0/1/0
+[2018-05-11 09:47:55.283 UTC] [68] []DEBUG:  CommitTransaction(1) name: unnamed; blockState: STARTED; state: INPROGR, xid/subid/cid: 0/1/0
+[2018-05-11 09:47:55.282 UTC] [70] []DEBUG:  logical replication launcher started
+[2018-05-11 09:47:55.283 UTC] [70] []DEBUG:  InitPostgres
+[2018-05-11 09:47:55.283 UTC] [70] []DEBUG:  my backend ID is 2
+[2018-05-11 09:47:55.284 UTC] [70] []DEBUG:  StartTransaction(1) name: unnamed; blockState: DEFAULT; state: INPROGR, xid/subid/cid: 0/1/0
+[2018-05-11 09:47:55.284 UTC] [69] []DEBUG:  removing permanent stats file "pg_stat/db_12994.stat"
+[2018-05-11 09:47:55.285 UTC] [70] []DEBUG:  CommitTransaction(1) name: unnamed; blockState: STARTED; state: INPROGR, xid/subid/cid: 0/1/0
+[2018-05-11 09:47:55.285 UTC] [69] []DEBUG:  removing permanent stats file "pg_stat/db_0.stat"
+[2018-05-11 09:47:55.285 UTC] [69] []DEBUG:  removing permanent stats file "pg_stat/global.stat"
+[2018-05-11 09:47:55.285 UTC] [69] []DEBUG:  received inquiry for database 0
+[2018-05-11 09:47:55.285 UTC] [70] []DEBUG:  StartTransaction(1) name: unnamed; blockState: DEFAULT; state: INPROGR, xid/subid/cid: 0/1/0
+[2018-05-11 09:47:55.285 UTC] [69] []DEBUG:  writing stats file "pg_stat_tmp/global.stat"
+[2018-05-11 09:47:55.285 UTC] [69] []DEBUG:  writing stats file "pg_stat_tmp/db_0.stat"
+[2018-05-11 09:47:55.286 UTC] [70] []DEBUG:  CommitTransaction(1) name: unnamed; blockState: STARTED; state: INPROGR, xid/subid/cid: 0/1/0
+[2018-05-11 09:47:55.286 UTC] [70] []DEBUG:  StartTransaction(1) name: unnamed; blockState: DEFAULT; state: INPROGR, xid/subid/cid: 0/1/0
+[2018-05-11 09:47:55.286 UTC] [70] []DEBUG:  CommitTransaction(1) name: unnamed; blockState: STARTED; state: INPROGR, xid/subid/cid: 0/1/0
+[2018-05-11 09:48:10.314 UTC] [66] []DEBUG:  snapshot of 0+0 running transaction ids (lsn 0/1634420 oldest xid 557 latest complete 556 next xid 557)
+[2018-05-11 09:48:35.430 UTC] [1] []DEBUG:  postmaster received signal 15
+[2018-05-11 09:48:35.430 UTC] [1] []LOG:  received smart shutdown request
+[2018-05-11 09:48:35.540 UTC] [1] []DEBUG:  sending signal 15 to process 70
+[2018-05-11 09:48:35.540 UTC] [70] []DEBUG:  logical replication launcher shutting down
+[2018-05-11 09:48:35.540 UTC] [70] []DEBUG:  shmem_exit(1): 2 before_shmem_exit callbacks to make
+[2018-05-11 09:48:35.540 UTC] [68] []DEBUG:  autovacuum launcher shutting down
+[2018-05-11 09:48:35.540 UTC] [70] []DEBUG:  shmem_exit(1): 6 on_shmem_exit callbacks to make
+[2018-05-11 09:48:35.540 UTC] [68] []DEBUG:  shmem_exit(0): 1 before_shmem_exit callbacks to make
+[2018-05-11 09:48:35.540 UTC] [70] []DEBUG:  proc_exit(1): 2 callbacks to make
+[2018-05-11 09:48:35.540 UTC] [68] []DEBUG:  shmem_exit(0): 6 on_shmem_exit callbacks to make
+[2018-05-11 09:48:35.540 UTC] [70] []DEBUG:  exit(1)
+[2018-05-11 09:48:35.540 UTC] [68] []DEBUG:  proc_exit(0): 2 callbacks to make
+[2018-05-11 09:48:35.540 UTC] [68] []DEBUG:  exit(0)
+[2018-05-11 09:48:35.540 UTC] [68] []DEBUG:  shmem_exit(-1): 0 before_shmem_exit callbacks to make
+[2018-05-11 09:48:35.540 UTC] [68] []DEBUG:  shmem_exit(-1): 0 on_shmem_exit callbacks to make
+[2018-05-11 09:48:35.540 UTC] [68] []DEBUG:  proc_exit(-1): 0 callbacks to make
+[2018-05-11 09:48:35.540 UTC] [70] []DEBUG:  shmem_exit(-1): 0 before_shmem_exit callbacks to make
+[2018-05-11 09:48:35.540 UTC] [70] []DEBUG:  shmem_exit(-1): 0 on_shmem_exit callbacks to make
+[2018-05-11 09:48:35.540 UTC] [70] []DEBUG:  proc_exit(-1): 0 callbacks to make
+[2018-05-11 09:48:35.543 UTC] [1] []DEBUG:  reaping dead processes
+[2018-05-11 09:48:35.544 UTC] [67] []DEBUG:  shmem_exit(0): 1 before_shmem_exit callbacks to make
+[2018-05-11 09:48:35.544 UTC] [67] []DEBUG:  shmem_exit(0): 4 on_shmem_exit callbacks to make
+[2018-05-11 09:48:35.544 UTC] [67] []DEBUG:  proc_exit(0): 2 callbacks to make
+[2018-05-11 09:48:35.544 UTC] [67] []DEBUG:  exit(0)
+[2018-05-11 09:48:35.544 UTC] [67] []DEBUG:  shmem_exit(-1): 0 before_shmem_exit callbacks to make
+[2018-05-11 09:48:35.544 UTC] [67] []DEBUG:  shmem_exit(-1): 0 on_shmem_exit callbacks to make
+[2018-05-11 09:48:35.544 UTC] [67] []DEBUG:  proc_exit(-1): 0 callbacks to make
+[2018-05-11 09:48:35.544 UTC] [1] []DEBUG:  reaping dead processes
+[2018-05-11 09:48:35.544 UTC] [1] []LOG:  worker process: logical replication launcher (PID 70) exited with exit code 1
+[2018-05-11 09:48:35.544 UTC] [66] []DEBUG:  shmem_exit(0): 1 before_shmem_exit callbacks to make
+[2018-05-11 09:48:35.544 UTC] [66] []DEBUG:  shmem_exit(0): 4 on_shmem_exit callbacks to make
+[2018-05-11 09:48:35.544 UTC] [66] []DEBUG:  proc_exit(0): 2 callbacks to make
+[2018-05-11 09:48:35.544 UTC] [66] []DEBUG:  exit(0)
+[2018-05-11 09:48:35.544 UTC] [66] []DEBUG:  shmem_exit(-1): 0 before_shmem_exit callbacks to make
+[2018-05-11 09:48:35.544 UTC] [66] []DEBUG:  shmem_exit(-1): 0 on_shmem_exit callbacks to make
+[2018-05-11 09:48:35.544 UTC] [66] []DEBUG:  proc_exit(-1): 0 callbacks to make
+[2018-05-11 09:48:35.547 UTC] [1] []DEBUG:  reaping dead processes
+[2018-05-11 09:48:35.548 UTC] [1] []DEBUG:  reaping dead processes
+[2018-05-11 09:48:35.548 UTC] [65] []LOG:  shutting down
+[2018-05-11 09:48:35.698 UTC] [65] []DEBUG:  performing replication slot checkpoint
+[2018-05-11 09:48:35.907 UTC] [65] []DEBUG:  attempting to remove WAL segments older than log file 000000000000000000000000
+[2018-05-11 09:48:35.908 UTC] [65] []DEBUG:  SlruScanDirectory invoking callback on pg_subtrans/0000
+[2018-05-11 09:48:35.908 UTC] [65] []DEBUG:  shmem_exit(0): 1 before_shmem_exit callbacks to make
+[2018-05-11 09:48:35.908 UTC] [65] []DEBUG:  shmem_exit(0): 4 on_shmem_exit callbacks to make
+[2018-05-11 09:48:35.908 UTC] [65] []DEBUG:  proc_exit(0): 2 callbacks to make
+[2018-05-11 09:48:35.908 UTC] [65] []DEBUG:  exit(0)
+[2018-05-11 09:48:35.908 UTC] [65] []DEBUG:  shmem_exit(-1): 0 before_shmem_exit callbacks to make
+[2018-05-11 09:48:35.908 UTC] [65] []DEBUG:  shmem_exit(-1): 0 on_shmem_exit callbacks to make
+[2018-05-11 09:48:35.908 UTC] [65] []DEBUG:  proc_exit(-1): 0 callbacks to make
+[2018-05-11 09:48:35.909 UTC] [1] []DEBUG:  reaping dead processes
+[2018-05-11 09:48:35.909 UTC] [69] []DEBUG:  writing stats file "pg_stat/global.stat"
+[2018-05-11 09:48:35.910 UTC] [69] []DEBUG:  writing stats file "pg_stat/db_12994.stat"
+[2018-05-11 09:48:35.910 UTC] [69] []DEBUG:  removing temporary stats file "pg_stat_tmp/db_12994.stat"
+[2018-05-11 09:48:35.910 UTC] [69] []DEBUG:  writing stats file "pg_stat/db_0.stat"
+[2018-05-11 09:48:35.910 UTC] [69] []DEBUG:  removing temporary stats file "pg_stat_tmp/db_0.stat"
+[2018-05-11 09:48:35.910 UTC] [69] []DEBUG:  shmem_exit(-1): 0 before_shmem_exit callbacks to make
+[2018-05-11 09:48:35.910 UTC] [69] []DEBUG:  shmem_exit(-1): 0 on_shmem_exit callbacks to make
+[2018-05-11 09:48:35.910 UTC] [69] []DEBUG:  proc_exit(-1): 0 callbacks to make
+[2018-05-11 09:48:35.911 UTC] [1] []DEBUG:  reaping dead processes
+[2018-05-11 09:48:35.911 UTC] [1] []DEBUG:  shmem_exit(0): 0 before_shmem_exit callbacks to make
+[2018-05-11 09:48:35.911 UTC] [1] []DEBUG:  shmem_exit(0): 5 on_shmem_exit callbacks to make
+[2018-05-11 09:48:35.911 UTC] [1] []DEBUG:  cleaning up dynamic shared memory control segment with ID 1831998074
+[2018-05-11 09:48:35.915 UTC] [1] []DEBUG:  proc_exit(0): 2 callbacks to make
+[2018-05-11 09:48:35.915 UTC] [1] []LOG:  database system is shut down
+[2018-05-11 09:48:35.915 UTC] [1] []DEBUG:  exit(0)
+[2018-05-11 09:48:35.915 UTC] [1] []DEBUG:  shmem_exit(-1): 0 before_shmem_exit callbacks to make
+[2018-05-11 09:48:35.915 UTC] [1] []DEBUG:  shmem_exit(-1): 0 on_shmem_exit callbacks to make
+[2018-05-11 09:48:35.915 UTC] [1] []DEBUG:  proc_exit(-1): 0 callbacks to make

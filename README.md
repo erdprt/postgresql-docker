@@ -11,7 +11,7 @@ List tables in database         \dt
 
 PGDATA directory                PGDATA: /var/lib/postgresql/data 
 
-Having persistent data for postgresql
+having persistent data for postgresql
     Create a volume:
         docker volume create --name postgresql-volume -d local
     Run:
